@@ -127,6 +127,7 @@ footer {
   margin-top: 2rem;
 }
 
- @media (max-width: 1000px) {
+ @media (max-width: 800px) {
       #chiform{display: none;}
+	  nav{display: none;}
 	}
