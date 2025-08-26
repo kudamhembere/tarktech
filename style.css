@@ -28,6 +28,10 @@ header {
       justify-content: center;
       gap: 40px;
       padding: 10px 0;
+	 /*TRYING TO MAKE NAV STICK TO TOP*/
+		position: sticky;
+  		top: 0;
+  		overflow: hidden;
     }
 
     nav a {
@@ -130,4 +134,5 @@ footer {
  @media (max-width: 800px) {
       #chiform{display: none;}
 	  nav{display: none;}
+
 	}
